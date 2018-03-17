@@ -3087,7 +3087,7 @@
     
     header .left-nav .sidebar-part1 a.logo img
     {position: relative;bottom: 14px;}
-
+       .navigation-area {position: absolute; bottom: 0; display: inline-block; width: 40px; height: 102px; }
 
     body { font-size: 12px; line-height: 20px}
 
