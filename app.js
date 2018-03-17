@@ -461,11 +461,11 @@ app.post('/projectsend',(req,res) =>{
 
 
 // Set Port
-//var server = https.createServer(function(req,res){
-//res.writeHead(200);
-//});
-//
-//app.listen(80,'localhost');
+var server = https.createServer(function(req,res){
+res.writeHead(200);
+});
+
+app.listen(80,'97.74.237.85');
 
 
 psi('promo.works').then(data => {
@@ -490,6 +490,6 @@ psi('promo.works', {nokey: 'true', strategy: 'mobile'}).then(data => {
 
 //app.set('port', (process.env.PORT || 8080));
 
-app.listen(80, function(){
-	console.log('Server started on port 80...');
-});
+//app.listen(80, function(){
+	//console.log('Server started on port 80...');
+//});
