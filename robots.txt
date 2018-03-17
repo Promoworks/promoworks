@@ -1,0 +1,2 @@
+Sitemap: http://www.promo.works/sitemap.xml
+User-agent: *

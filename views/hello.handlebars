@@ -1,0 +1,126 @@
+        <!-- start help section -->
+        <section class="wow fadeIn big-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 col-xs-12 text-center center-col">
+<!--                        <span class="alt-font text-small text-uppercase">We would love to work with you</span>-->
+                        <h5 class="alt-font font-weight-700 letter-spacing-minus-1 text-extra-dark-gray">We would love to work with you</h5>
+                        <p class="width-75 center-col xs-width-100">Feel free to get in touch with us if you have a new project or simply something awesome.</p>
+                        <a href="#start-your-project" class="btn btn-large btn-transparent-dark-gray margin-10px-top inner-link">Start your Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end help section -->
+
+
+
+
+
+        <!-- start contact section -->
+        <title>Hello | PromoWorks</title>
+
+        <section class="no-padding bg-extra-dark-gray">
+            <div class="container-fluid">
+                <div class="row equalize sm-equalize-auto">
+                    <div class="col-md-6 col-sm-12 no-padding cover-background sm-height-450px xs-height-350px wow fadeInLeft" style="background: url(/images/contact/mailbox.gif)"></div>
+                    <div class="col-md-6 col-sm-12 no-padding col-2-nth wow fadeInRight">
+                        <!-- start contact item -->
+                        <div class="col-md-6 col-sm-6 col-xs-12 display-table bg-extra-dark-gray height-350px last-paragraph-no-margin">
+                            <div class="display-table-cell vertical-align-middle text-center">
+                                <i class="icon-map text-deep-pink icon-medium margin-25px-bottom"></i>
+                                <div class="text-white text-uppercase alt-font font-weight-600 margin-5px-bottom">Contact Address</div>
+                                <p class="width-60 md-width-80 center-col text-medium text-white">#35/5, Eldams Road, Alwarpet, Chennai, Tamil Nadu 600018.</p>
+                            </div>
+                        </div>
+                        <!-- end contact item -->
+                        <!-- start contact item -->
+                        <div class="col-md-6 col-sm-6 col-xs-12 display-table bg-white height-350px last-paragraph-no-margin">
+                            <div class="display-table-cell vertical-align-middle text-center">
+                                <i class="icon-chat text-deep-pink icon-medium margin-25px-bottom"></i>
+                                <div class="text-black text-uppercase alt-font font-weight-600 margin-5px-bottom">Say Hello !</div>
+                                <p class="center-col text-medium no-margin">+91 94 88 88 99 89</p>
+                            </div>
+                        </div>
+                        <!-- end contact item -->
+                        <!-- start contact item -->
+                        <div class="col-md-6 col-sm-6 col-xs-12 display-table bg-white height-350px last-paragraph-no-margin">
+                            <div class="display-table-cell vertical-align-middle text-center">
+                                <i class="icon-envelope text-deep-pink icon-medium margin-25px-bottom"></i>
+                                <div class="text-black text-uppercase alt-font font-weight-600 margin-5px-bottom">Email Us</div>
+                                <p class="center-col text-medium no-margin"><a href="mailto:info@promo.works">info@promo.works</a></p>
+                            </div>
+                        </div>
+                        <!-- end contact item -->
+                        <!-- start contact item -->
+                        <div class="col-md-6 col-sm-6 col-xs-12 display-table bg-extra-dark-gray height-350px last-paragraph-no-margin">
+                            <div class="display-table-cell vertical-align-middle text-center">
+                                <i class="icon-clock text-deep-pink icon-medium margin-25px-bottom"></i>
+                                <div class="text-white text-uppercase alt-font font-weight-600 margin-5px-bottom">Working Hours</div>
+                                <p class="center-col text-medium no-margin text-white">Mon to Fri - 9:30 AM to 5:30 PM</p>
+                            </div>
+                        </div>
+                        <!-- end contact item -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact section -->        
+        <!-- start form section -->
+        <section class="wow fadeIn" id="start-your-project">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 center-col margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
+                        <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase">tell us about your project</h5>
+                        <p>Feel free to get in touch with us if you have a new project or simply something awesome.</p>
+                    </div>  
+                </div>
+                                                
+                                    {{#if errors}}
+                                        {{#each errors }}
+                                                <div class="alert alert-dismissable alert-danger">{{msg}}</div>
+                                        {{/each}}
+                                    {{/if}}
+                                
+                                
+                                {{msg}}
+                
+                <form id="project-contact-form" action="sayhello" method="post">
+                    <div class="row">
+                         <div class="col-md-12">
+                            <div id="success-project-contact-form" class="no-margin-lr"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="name" id="name" placeholder="Name *" class="big-input">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="phone" id="phone" placeholder="Phone" class="big-input">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="email" id="email" placeholder="E-mail *" class="big-input">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="select-style big-select">
+                                <select name="Synopsis" id="budget" class="bg-transparent no-margin-bottom">
+                                    <option value="">Select your Work</option>
+                                    <option value="Branding">Branding</option>
+                                    <option value="SEO">SEO</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="Videos">Videos</option>
+                                    <option value="Web Application">Web Application</option>
+                                    <option value="Web Designing">Web Designing</option>
+                                    <option value="Mobile Application">Mobile Application</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="comment" id="comment" placeholder="Describe your project" rows="6" class="big-textarea"></textarea>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button id="project-contact-us-button" type="submit" class="btn btn-transparent-dark-gray btn-large margin-20px-top">send message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- end form section -->

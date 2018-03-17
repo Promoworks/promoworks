@@ -1,0 +1,61 @@
+            <title>Start Your project | PromoWorks</title>
+
+      
+        <!-- start form section -->
+        <section class="wow fadeIn" id="start-your-project">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 center-col margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
+                        <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase">tell us about your project</h5>
+                        <p>Feel free to get in touch with us if you have a new project or simply something awesome.</p>
+                    </div>  
+                </div>
+                                                
+                                    {{#if errors}}
+                                        {{#each errors }}
+                                                <div class="alert alert-dismissable alert-danger">{{msg}}</div>
+                                        {{/each}}
+                                    {{/if}}
+                                
+                                
+                                {{msg}}
+                
+                <form id="project-contact-form" action="projectsend" method="post">
+                    <div class="row">
+                         <div class="col-md-12">
+                            <div id="success-project-contact-form" class="no-margin-lr"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="name" id="name" placeholder="Name *" class="big-input">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="phone" id="phone" placeholder="Phone" class="big-input">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="email" id="email" placeholder="E-mail *" class="big-input">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="select-style big-select">
+                                <select name="Synopsis" id="budget" class="bg-transparent no-margin-bottom">
+                                    <option value="">Select your Work</option>
+                                    <option value="Branding">Branding</option>
+                                    <option value="SEO">SEO</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="Videos">Videos</option>
+                                    <option value="Web Application">Web Application</option>
+                                    <option value="Web Designing">Web Designing</option>
+                                    <option value="Mobile Application">Mobile Application</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="comment" id="comment" placeholder="Describe your project" rows="6" class="big-textarea"></textarea>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button id="project-contact-us-button" type="submit" class="btn btn-transparent-dark-gray btn-large margin-20px-top">send message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- end form section -->
