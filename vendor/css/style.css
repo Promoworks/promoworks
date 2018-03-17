@@ -2740,7 +2740,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .swiper-button-next.swiper-next-style3 {bottom: 100px;}
 
 /* next prev button style 4 */
-.navigation-area {position: absolute; bottom: 0; display: inline-block; width: 40px; height: 82px; }
+.navigation-area {position: absolute; bottom: 0; display: inline-block; width: 40px; height: 81px; }
 .swiper-button-prev.swiper-prev-style4, .swiper-button-next.swiper-next-style4 {background-image: none; background: #ff214f; color: #fff; text-align: center; line-height: 40px; height: 40px; width: 40px; display: block; float: left; position: relative; left: auto; right: auto; top: 0; margin: 0 auto; }
 .swiper-button-next.swiper-next-style4 {margin-bottom:1px}
 
