@@ -1,211 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>http://www.promo.works/</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/branding/logoDesign</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/branding/stationeryDesign</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/branding/brochureDesign</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/branding/menuCardDesign</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/branding/landingPageDesign</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/branding/packageDesign</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/branding/bannerDesign</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/branding/T-Shirt</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/branding/In-shop</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/seo/on-page</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/seo/off-page</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/marketing/socialmediamarketing</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/marketing/googleplacesmarketing</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/marketing/contentmarketing</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/marketing/emailmarketing</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/videos/2d-videos</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/videos/3d-videos</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/videos/explainer-videos</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/videos/greeting-videos</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/videos/voiceover</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/ads/newspaperAds</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/ads/magazineAds</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/ads/theatreAds</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/ads/tvAds</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/ads/digitalAds</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/applications/UIdesigns</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/applications/webapplications</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/applications/mobileapplications</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/careers/orbit</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/privacy</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/sitemap</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/hello</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/start-your-project</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/careers/creative-director</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/careers/social-media-strategist</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/careers/content-strategist</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/careers/3D-animator</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/careers/graphic-designer</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.promo.works/careers/business-account</loc>
-  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+                 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+                 <url><loc>http://promo.works</loc></url>
+<url><loc>http://promo.works/</loc></url>
+<url><loc>http://www.promo.works/</loc></url>
+<url><loc>http://promo.works/applications/websitedesigning</loc></url>
+<url><loc>http://promo.works/videos/2d-videos</loc></url>
+<url><loc>http://promo.works/marketing/digitalmediamarketing</loc></url>
+<url><loc>http://promo.works/hello</loc></url>
+<url><loc>http://promo.works/sitemap</loc></url>
+<url><loc>http://promo.works/privacy</loc></url>
+<url><loc>http://promo.works/careers/orbit</loc></url>
+<url><loc>http://promo.works/applications/mobileapplications</loc></url>
+<url><loc>http://promo.works/applications/webapplications</loc></url>
+<url><loc>http://promo.works/applications/uidesigns</loc></url>
+<url><loc>http://promo.works/ads/digitalads</loc></url>
+<url><loc>http://promo.works/ads/tvads</loc></url>
+<url><loc>http://promo.works/ads/theatreads</loc></url>
+<url><loc>http://promo.works/ads/magazineads</loc></url>
+<url><loc>http://promo.works/ads/newspaperads</loc></url>
+<url><loc>http://promo.works/videos/voiceover</loc></url>
+<url><loc>http://promo.works/videos/greeting-videos</loc></url>
+<url><loc>http://promo.works/videos/explainer-videos</loc></url>
+<url><loc>http://promo.works/videos/3d-videos</loc></url>
+<url><loc>http://promo.works/marketing/emailmarketing</loc></url>
+<url><loc>http://promo.works/marketing/contentmarketing</loc></url>
+<url><loc>http://promo.works/marketing/googleplacesmarketing</loc></url>
+<url><loc>http://promo.works/marketing/socialmediamarketing</loc></url>
+<url><loc>http://promo.works/seo/off-page</loc></url>
+<url><loc>http://promo.works/seo/on-page</loc></url>
+<url><loc>http://promo.works/branding/in-shop</loc></url>
+<url><loc>http://promo.works/branding/t-shirt</loc></url>
+<url><loc>http://promo.works/branding/bannerdesign</loc></url>
+<url><loc>http://promo.works/branding/packagedesign</loc></url>
+<url><loc>http://promo.works/branding/landingpagedesign</loc></url>
+<url><loc>http://promo.works/branding/menucarddesign</loc></url>
+<url><loc>http://promo.works/branding/brochuredesign</loc></url>
+<url><loc>http://promo.works/branding/stationerydesign</loc></url>
+<url><loc>http://promo.works/branding/logodesign</loc></url>
+<url><loc>http://promo.works/images/videos/2d/foodix.mp4</loc></url>
+<url><loc>http://promo.works/images/videos/2d/cafe.mp4</loc></url>
+<url><loc>http://promo.works/start-your-project</loc></url>
+<url><loc>http://promo.works/careers/business-account</loc></url>
+<url><loc>http://promo.works/careers/graphic-designer</loc></url>
+<url><loc>http://promo.works/careers/3d-animator</loc></url>
+<url><loc>http://promo.works/careers/content-strategist</loc></url>
+<url><loc>http://promo.works/careers/social-media-strategist</loc></url>
+<url><loc>http://promo.works/careers/creative-director</loc></url>
+<url><loc>http://promo.works/images/videos/greeting/womans.mp4</loc></url>
+<url><loc>http://promo.works/images/videos/greeting/holi.mp4</loc></url>
+<url><loc>http://promo.works/images/videos/greeting/pongal.mp4</loc></url>
+<url><loc>http://promo.works/images/videos/greeting/new-year.mp4</loc></url>
+<url><loc>http://promo.works/images/videos/greeting/x-mas.mp4</loc></url>
+<url><loc>http://promo.works/images/videos/explainer/mobile-app.mp4</loc></url>
+<url><loc>http://promo.works/images/videos/explainer/adroit.mp4</loc></url>
+<url><loc>http://promo.works/images/videos/mithila.mp4</loc></url>
 </urlset>
