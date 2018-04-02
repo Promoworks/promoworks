@@ -1,218 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com
--->
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
 <url>
-<loc>http://www.promo.works/</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>http://www.promo.works/</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>http://www.promo.works/branding/logoDesign</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/branding/logoDesign</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/branding/stationeryDesign</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/branding/stationeryDesign</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/branding/brochureDesign</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/branding/brochureDesign</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/branding/menuCardDesign</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/branding/menuCardDesign</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/branding/landingPageDesign</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/branding/landingPageDesign</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/branding/packageDesign</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/branding/packageDesign</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/ads/magazineAds</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/branding/bannerDesign</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/ads/digitalAds</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/branding/T-Shirt</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/ads/tvAds</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/branding/In-shop</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/ads/theatreAds</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/seo/on-page</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/ads/newspaperAds</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/seo/off-page</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/branding/bannerDesign</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/marketing/socialmediamarketing</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/branding/In-shop</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/marketing/googleplacesmarketing</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/branding/T-Shirt</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/marketing/contentmarketing</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/seo/on-page</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/marketing/emailmarketing</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/seo/off-page</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/videos/2d-videos</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-http://www.promo.works/marketing/socialmediamarketing
-</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/videos/3d-videos</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-http://www.promo.works/marketing/googleplacesmarketing
-</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/videos/explainer-videos</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/marketing/contentmarketing</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/videos/greeting-videos</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/marketing/emailmarketing</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/videos/voiceover</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/videos/2d-videos</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/ads/newspaperAds</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/videos/3d-videos</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/ads/magazineAds</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/videos/explainer-videos</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/ads/theatreAds</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/videos/greeting-videos</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/ads/tvAds</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/videos/voiceover</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/ads/digitalAds</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-http://www.promo.works/applications/UIdesigns
-</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/applications/UIdesigns</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-http://www.promo.works/applications/webapplications
-</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/applications/webapplications</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-http://www.promo.works/applications/mobileapplications
-</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/applications/mobileapplications</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/careers/orbit</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/careers/orbit</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/privacy</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/privacy</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/sitemap</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/sitemap</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/hello</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://www.promo.works/hello</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://www.promo.works/start-your-project</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://www.promo.works/start-your-project</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://www.promo.works/careers/creative-director</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://www.promo.works/careers/creative-director</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-http://www.promo.works/careers/social-media-strategist
-</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://www.promo.works/careers/social-media-strategist</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://www.promo.works/careers/content-strategist</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://www.promo.works/careers/content-strategist</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://www.promo.works/careers/3D-animator</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://www.promo.works/careers/3D-animator</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://www.promo.works/careers/graphic-designer</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://www.promo.works/careers/graphic-designer</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://www.promo.works/careers/business-account</loc>
-<lastmod>2018-02-22T10:34:16+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://www.promo.works/careers/business-account</loc>
+  <lastmod>2018-04-02T05:47:08+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>
