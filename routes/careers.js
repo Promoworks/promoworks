@@ -7,13 +7,13 @@ var nodemailer = require('nodemailer');
 
 //Orbit
 router.get('/orbit',function(req,res){
-   res.render('orbit'); 
+   res.render('orbit');
 });
 
 
 //Creative Producer
 router.get('/creative-director',function(req,res){
-   res.render('creative-director'); 
+   res.render('creative-director');
 });
 
 
@@ -21,30 +21,30 @@ router.get('/creative-director',function(req,res){
 //Creative Producer POST
 
 router.post('/creative-director',(req,res) =>{
-    
+
     var name = req.body.name;
     var email = req.body.email;
     var phone  = req.body.phone;
     var comment  = req.body.comment;
-    
+
         //Validations
-    
+
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
     req.checkBody('phone', 'phone is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
-    
+
     var errors = req.validationErrors();
-    
+
       if(errors)
        {
            res.render('creative-director',{
                errors:errors
            });
-       
+
        }
-    
-   else{      
+
+   else{
 
            var output = `
     <p>You have new Creative Director</p>
@@ -61,7 +61,8 @@ router.post('/creative-director',(req,res) =>{
 <p>${req.body.phone}</p>
 
 `;
-    
+
+var fromoutput = `${req.body.email}`;
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -79,7 +80,7 @@ router.post('/creative-director',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Promo.works 🤳" <hello@promo.works>', // sender address
+        from: fromoutput, // sender address
         to: 'hello@promo.works', // list of receivers
         subject: 'Creative Director Request ✔', // Subject line
         text: 'Hello world?', // plain text body
@@ -96,8 +97,8 @@ router.post('/creative-director',(req,res) =>{
         res.render('creative-director', {msg:'Email has been sent'});
 
     });
-       
-    
+
+
 }
 });
 
@@ -106,7 +107,7 @@ router.post('/creative-director',(req,res) =>{
 
 //Social-media-strategist
 router.get('/social-media-strategist',function(req,res){
-   res.render('social-media-strategist'); 
+   res.render('social-media-strategist');
 });
 
 
@@ -116,30 +117,30 @@ router.get('/social-media-strategist',function(req,res){
 //Social-media-strategist POST
 
 router.post('/social-media-strategist',(req,res) =>{
-    
+
     var name = req.body.name;
     var email = req.body.email;
     var phone  = req.body.phone;
     var comment  = req.body.comment;
-    
+
         //Validations
-    
+
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
     req.checkBody('phone', 'phone is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
-    
+
     var errors = req.validationErrors();
-    
+
       if(errors)
        {
            res.render('social-media-strategist',{
                errors:errors
            });
-       
+
        }
-    
-   else{      
+
+   else{
 
            var output = `
     <p>You have new Media Strategist</p>
@@ -156,7 +157,8 @@ router.post('/social-media-strategist',(req,res) =>{
 <p>${req.body.phone}</p>
 
 `;
-    
+var fromoutput = `${req.body.email}`;
+
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -174,7 +176,7 @@ router.post('/social-media-strategist',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Promo.works 🤳" <hello@promo.works>', // sender address
+        from: fromoutput, // sender address
         to: 'hello@promo.works', // list of receivers
         subject: 'Social-media-strategist Request ✔', // Subject line
         text: 'Hello world?', // plain text body
@@ -191,8 +193,8 @@ router.post('/social-media-strategist',(req,res) =>{
         res.render('social-media-strategist', {msg:'Email has been sent'});
 
     });
-       
-    
+
+
 }
 });
 
@@ -202,7 +204,7 @@ router.post('/social-media-strategist',(req,res) =>{
 
 //Content-strategist
 router.get('/content-strategist',function(req,res){
-   res.render('content-strategist'); 
+   res.render('content-strategist');
 });
 
 
@@ -213,30 +215,30 @@ router.get('/content-strategist',function(req,res){
 //Content-strategist POST
 
 router.post('/content-strategist',(req,res) =>{
-    
+
     var name = req.body.name;
     var email = req.body.email;
     var phone  = req.body.phone;
     var comment  = req.body.comment;
-    
+
         //Validations
-    
+
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
     req.checkBody('phone', 'phone is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
-    
+
     var errors = req.validationErrors();
-    
+
       if(errors)
        {
            res.render('content-strategist',{
                errors:errors
            });
-       
+
        }
-    
-   else{      
+
+   else{
 
            var output = `
     <p>You have new Content Strategist</p>
@@ -253,7 +255,8 @@ router.post('/content-strategist',(req,res) =>{
 <p>${req.body.phone}</p>
 
 `;
-    
+var fromoutput = `${req.body.email}`;
+
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -271,7 +274,7 @@ router.post('/content-strategist',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Promo.works 🤳" <hello@promo.works>', // sender address
+        from: fromoutput, // sender address
         to: 'hello@promo.works', // list of receivers
         subject: 'Content-strategist Request ✔', // Subject line
         text: 'Hello world?', // plain text body
@@ -288,8 +291,8 @@ router.post('/content-strategist',(req,res) =>{
         res.render('content-strategist', {msg:'Email has been sent'});
 
     });
-       
-    
+
+
 }
 });
 
@@ -299,7 +302,7 @@ router.post('/content-strategist',(req,res) =>{
 
 //3D-animator
 router.get('/3D-animator',function(req,res){
-   res.render('3D-animator'); 
+   res.render('3D-animator');
 });
 
 
@@ -311,30 +314,30 @@ router.get('/3D-animator',function(req,res){
 //3D-animator POST
 
 router.post('/3D-animator',(req,res) =>{
-    
+
     var name = req.body.name;
     var email = req.body.email;
     var phone  = req.body.phone;
     var comment  = req.body.comment;
-    
+
         //Validations
-    
+
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
     req.checkBody('phone', 'phone is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
-    
+
     var errors = req.validationErrors();
-    
+
       if(errors)
        {
            res.render('3D-animator',{
                errors:errors
            });
-       
+
        }
-    
-   else{      
+
+   else{
 
            var output = `
     <p>You have new 3D-animator</p>
@@ -351,7 +354,9 @@ router.post('/3D-animator',(req,res) =>{
 <p>${req.body.phone}</p>
 
 `;
-    
+
+var fromoutput = `${req.body.email}`;
+
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -369,7 +374,7 @@ router.post('/3D-animator',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Promo.works 🤳" <hello@promo.works>', // sender address
+        from: fromoutput, // sender address
         to: 'hello@promo.works', // list of receivers
         subject: '3D-animator Request ✔', // Subject line
         text: 'Hello world?', // plain text body
@@ -386,8 +391,8 @@ router.post('/3D-animator',(req,res) =>{
         res.render('3D-animator', {msg:'Email has been sent'});
 
     });
-       
-    
+
+
 }
 });
 
@@ -398,7 +403,7 @@ router.post('/3D-animator',(req,res) =>{
 
 //Graphic-designer
 router.get('/graphic-designer',function(req,res){
-   res.render('graphic-designer'); 
+   res.render('graphic-designer');
 });
 
 
@@ -408,30 +413,30 @@ router.get('/graphic-designer',function(req,res){
 //Graphic-designer POST
 
 router.post('/graphic-designer',(req,res) =>{
-    
+
     var name = req.body.name;
     var email = req.body.email;
     var phone  = req.body.phone;
     var comment  = req.body.comment;
-    
+
         //Validations
-    
+
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
     req.checkBody('phone', 'phone is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
-    
+
     var errors = req.validationErrors();
-    
+
       if(errors)
        {
            res.render('graphic-designer',{
                errors:errors
            });
-       
+
        }
-    
-   else{      
+
+   else{
 
            var output = `
     <p>You have new Graphic-designer</p>
@@ -448,7 +453,9 @@ router.post('/graphic-designer',(req,res) =>{
 <p>${req.body.phone}</p>
 
 `;
-    
+
+var fromoutput = `${req.body.email}`;
+
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -466,7 +473,7 @@ router.post('/graphic-designer',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Promo.works 🤳" <hello@promo.works>', // sender address
+        from: fromoutput, // sender address
         to: 'hello@promo.works', // list of receivers
         subject: 'Graphic-designer Request ✔', // Subject line
         text: 'Hello world?', // plain text body
@@ -483,8 +490,8 @@ router.post('/graphic-designer',(req,res) =>{
         res.render('graphic-designer', {msg:'Email has been sent'});
 
     });
-       
-    
+
+
 }
 });
 
@@ -496,7 +503,7 @@ router.post('/graphic-designer',(req,res) =>{
 
 //Business-account
 router.get('/business-account',function(req,res){
-   res.render('business-account'); 
+   res.render('business-account');
 });
 
 
@@ -507,30 +514,30 @@ router.get('/business-account',function(req,res){
 //Business-Account POST
 
 router.post('/business-account',(req,res) =>{
-    
+
     var name = req.body.name;
     var email = req.body.email;
     var phone  = req.body.phone;
     var comment  = req.body.comment;
-    
+
         //Validations
-    
+
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
     req.checkBody('phone', 'phone is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
-    
+
     var errors = req.validationErrors();
-    
+
       if(errors)
        {
            res.render('business-account',{
                errors:errors
            });
-       
+
        }
-    
-   else{      
+
+   else{
 
            var output = `
     <p>You have new Business-Account</p>
@@ -547,7 +554,8 @@ router.post('/business-account',(req,res) =>{
 <p>${req.body.phone}</p>
 
 `;
-    
+
+var fromoutput = `${req.body.email}`;
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -565,7 +573,7 @@ router.post('/business-account',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Promo.works 🤳" <hello@promo.works>', // sender address
+        from: fromoutput, // sender address
         to: 'hello@promo.works', // list of receivers
         subject: 'Business-Account Request ✔', // Subject line
         text: 'Hello world?', // plain text body
@@ -582,8 +590,8 @@ router.post('/business-account',(req,res) =>{
         res.render('business-account', {msg:'Email has been sent'});
 
     });
-       
-    
+
+
 }
 });
 
