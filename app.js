@@ -195,32 +195,32 @@ app.get('/start-your-project',function(req,res){
 //Index Mailer
 
 app.post('/send',(req,res) =>{
-    
+
     var name = req.body.name;
     var email = req.body.email;
     var mobile = req.body.mobile;
     var username  = req.body.subject;
     var comment  = req.body.comment;
-    
+
         //Validations
-    
+
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
     req.checkBody('mobile', 'Mobile is required').notEmpty();
     req.checkBody('subject', 'subject is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
-    
+
     var errors = req.validationErrors();
-    
+
       if(errors)
        {
            res.render('index',{
                errors:errors
            });
-       
+
        }
-    
-   else{      
+
+   else{
 
            var output = `
     <p>You have new Index Contact Request</p>
@@ -237,7 +237,8 @@ app.post('/send',(req,res) =>{
 <p>${req.body.comment}</p>
 
 `;
-    
+           var fromoutput = `${req.body.email}`;
+
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -255,7 +256,7 @@ app.post('/send',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '${req.body.email} 🤳', // sender address
+        from: fromoutput, // sender address
         to: 'hello@promo.works', // list of receivers
         subject: 'Main Page Contact ✔', // Subject line
         text: 'Hello world?', // plain text body
@@ -272,45 +273,45 @@ app.post('/send',(req,res) =>{
         res.render('index', {msg:'Email has been sent'});
 
     });
-       
-    
+
+
 }
 });
 
-    
-    
-   
+
+
+
 
 
 //Contact Mailer
 
 app.post('/sayhello',(req,res) =>{
-    
+
     var name = req.body.name;
     var email = req.body.email;
     var phone  = req.body.phone;
     var Synopsis  = req.body.Synopsis;
     var comment  = req.body.comment;
-    
+
         //Validations
-    
+
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
     req.checkBody('phone', 'phone is required').notEmpty();
     req.checkBody('Synopsis', 'Synopsis is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
-    
+
     var errors = req.validationErrors();
-    
+
       if(errors)
        {
            res.render('hello',{
                errors:errors
            });
-       
+
        }
-    
-   else{      
+
+   else{
 
            var output = `
     <p>You have new Contact Request</p>
@@ -327,7 +328,8 @@ app.post('/sayhello',(req,res) =>{
 <p>${req.body.phone}</p>
 
 `;
-    
+var fromoutput = `${req.body.email}`;
+
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -345,7 +347,7 @@ app.post('/sayhello',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Promo.works 🤳" <hello@promo.works>', // sender address
+        from: fromoutput, // sender address
         to: 'samantony59@gmail.com', // list of receivers
         subject: 'Page Contact ✔', // Subject line
         text: 'Hello world?', // plain text body
@@ -362,8 +364,8 @@ app.post('/sayhello',(req,res) =>{
         res.render('hello', {msg:'Email has been sent'});
 
     });
-       
-    
+
+
 }
 });
 
@@ -371,32 +373,32 @@ app.post('/sayhello',(req,res) =>{
 //Project Send Mailer
 
 app.post('/projectsend',(req,res) =>{
-    
+
     var name = req.body.name;
     var email = req.body.email;
     var phone  = req.body.phone;
     var Synopsis  = req.body.Synopsis;
     var comment  = req.body.comment;
-    
+
         //Validations
-    
+
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
     req.checkBody('phone', 'phone is required').notEmpty();
     req.checkBody('Synopsis', 'Synopsis is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
-    
+
     var errors = req.validationErrors();
-    
+
       if(errors)
        {
            res.render('start-your-project',{
                errors:errors
            });
-       
+
        }
-    
-   else{      
+
+   else{
 
            var output = `
     <p>You have new Contact Request</p>
@@ -413,7 +415,8 @@ app.post('/projectsend',(req,res) =>{
 <p>${req.body.phone}</p>
 
 `;
-    
+var fromoutput = `${req.body.email}`;
+
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -431,7 +434,7 @@ app.post('/projectsend',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Promo.works 🤳" <hello@promo.works>', // sender address
+        from: fromoutput, // sender address
         to: 'hello@promo.works', // list of receivers
         subject: 'Page Contact ✔', // Subject line
         text: 'Hello world?', // plain text body
@@ -448,19 +451,11 @@ app.post('/projectsend',(req,res) =>{
         res.render('start-your-project', {msg:'Email has been sent'});
 
     });
-       
-    
+
+
 }
 });
 
-
-
-   
-
-
-    
-    
-   
 
 
 // Set Port
