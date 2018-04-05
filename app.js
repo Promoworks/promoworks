@@ -198,6 +198,7 @@ app.post('/send',(req,res) =>{
     
     var name = req.body.name;
     var email = req.body.email;
+    var mobile = req.body.mobile;
     var username  = req.body.subject;
     var comment  = req.body.comment;
     
@@ -205,6 +206,7 @@ app.post('/send',(req,res) =>{
     
     req.checkBody('name', 'Username is required').notEmpty();
     req.checkBody('email', 'Email is required').isEmail();
+    req.checkBody('mobile', 'Mobile is required').notEmpty();
     req.checkBody('subject', 'subject is required').notEmpty();
     req.checkBody('comment', 'comment is required').notEmpty();
     
@@ -227,6 +229,7 @@ app.post('/send',(req,res) =>{
 
     <li>Name: ${req.body.name}</li>
     <li>Email: ${req.body.email}</li>
+    <li>Mobile: ${req.body.mobile}</li>
     <li>Subject: ${req.body.subject}</li>
 
 </ul>
@@ -252,7 +255,7 @@ app.post('/send',(req,res) =>{
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Promo.works 🤳" <hello@promo.works>', // sender address
+        from: '${req.body.email} 🤳', // sender address
         to: 'hello@promo.works', // list of receivers
         subject: 'Main Page Contact ✔', // Subject line
         text: 'Hello world?', // plain text body
