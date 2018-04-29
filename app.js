@@ -459,35 +459,19 @@ var fromoutput = `${req.body.email}`;
 
 
 // Set Port
-var server = https.createServer(function(req,res){
-res.writeHead(200);
-});
-
-app.listen(80,'97.74.237.85');
-
-
-psi('promo.works').then(data => {
-  console.log(data.ruleGroups.SPEED.score);
-  console.log(data.pageStats);
-});
-
-// Output a formatted report to the terminal
-psi.output('promo.works').then(() => {
-  console.log('done');
-});
-
-// Supply options to PSI and get back speed and usability scores
-psi('promo.works', {nokey: 'true', strategy: 'mobile'}).then(data => {
-  console.log('Speed score:', data.ruleGroups.SPEED.score);
-  console.log('Usability score:', data.ruleGroups.USABILITY.score);
-});
-
-
-
-
-
-//app.set('port', (process.env.PORT || 8080));
-
-//app.listen(80, function(){
-	//console.log('Server started on port 80...');
+//var server = https.createServer(function(req,res){
+//res.writeHead(200);
 //});
+
+//app.listen(80,'97.74.237.85');
+
+
+
+app.set('port', (process.env.PORT ||8080));
+
+app.listen(app.get('port'), function(){
+        console.log('Server started on port '+app.get('port'));
+});
+
+
+
