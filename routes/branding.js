@@ -48,6 +48,11 @@ router.get('/T-Shirt',function(req,res){
    res.render('T-Shirt'); 
 });
 
+//Hoarding Design
+router.get('/hoarding',function(req,res){
+   res.render('hoarding'); 
+});
+
 //In-shop
 router.get('/In-shop',function(req,res){
    res.render('In-shop'); 
