@@ -58,4 +58,9 @@ router.get('/In-shop',function(req,res){
    res.render('In-shop'); 
 });
 
+//Hoarding Design
+router.get('/hoarding',function(req,res){
+   res.render('hoarding'); 
+});
+
 module.exports = router;
