@@ -2585,7 +2585,7 @@ header .sidebar-part2 nav.navbar.bootsnav ul > li > .second-level > li > a > .fa
 .sidebar-part2 nav.navbar.bootsnav {border-bottom: 0; position: inherit;}
 .sidebar-part2 .right-bg {position: fixed; height: 100%; left:0; top: 0; background-color: #fff; width: 90px;}
 .sidebar-part2 .right-bg:before { background-color: #dfdfdf;bottom: 75px;content: ""; display: inline-block; height: 1px; left: 0; position: absolute; width: 100%;}
-.sidebar-part2 .right-bg img{position: absolute; top: 50%; left: 37px; transform: translateY(-100px); -webkit-transform: translateY(-100px); -moz-transform: translateY(-100px); -ms-transform: translateY(-100px); -o-transform: translateY(-100px);}
+.sidebar-part2 .right-bg img{position: absolute; top: 50%; left: 20px; transform: translateY(-100px); -webkit-transform: translateY(-100px); -moz-transform: translateY(-100px); -ms-transform: translateY(-100px); -o-transform: translateY(-100px);}
 header .sidebar-part2 nav.navbar.bootsnav ul li ul li a {font-size: 14px; line-height: 20px; width: 100%; padding: 15px 0; border-bottom: 1px solid #f0f0f0; color: #939393; font-weight: 500;}
 header .sidebar-part2 nav.navbar.bootsnav ul li.dropdown > a, .sidebar-nav-style-1 .navbar-left-sidebar li.dropdown > a {padding-right: 20px;}
 header .sidebar-part2 nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li a:hover { border-bottom: 1px solid #ff214f; background: inherit }
