@@ -18,6 +18,16 @@ router.get('/explainer-videos',function(req,res){
    res.render('explainer-videos'); 
 });
 
+//Promotional-Page
+router.get('/promotional-videos',function(req,res){
+   res.render('promotional-videos'); 
+});
+
+//Scribe-Page
+router.get('/scribe-videos',function(req,res){
+   res.render('scribe-videos'); 
+});
+
 //Greeting-Page
 router.get('/greeting-videos',function(req,res){
    res.render('greeting-videos'); 
